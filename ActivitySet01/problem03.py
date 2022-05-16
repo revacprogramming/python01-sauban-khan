@@ -1,5 +1,5 @@
 # Variables, Expressions & Statements
-xh=input("enter the hours:")
-xr=input("enter the rate:")
-xp= float(xh) * float(xr)
+hrs=input("enter the hours:")
+rate=input("enter the rate:")
+pay= float(xh) * float(xr)
 print("pay:",xp)
