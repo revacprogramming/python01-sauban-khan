@@ -3,17 +3,16 @@ def computepay(hours,rate):
   if hours>40:
     x = rate * hours
     y = (hours-40.0) * (rate * 0.5)
-    pay = x+y
+    Pay = x+y
+    
   else:    
-    pay=hours * rate
+    pay= hours * rate
     
-  return pay
+  return Pay
     
-sh=input("enter hours:")
-sr=input("enter rate:")
-fh=float(sh)
-fr=float(sr)
+hrs=float(input("enter hours:"))
+rate=float(input("enter rate:"))
 
-xp=computepay(fh,fr)
+xp=computepay(hrs,rate)
 
-print("pay:",xp)
+print("Pay",xp)
