@@ -1,12 +1,12 @@
 def computepay(hours,rate):
-  #print("in computepay:",hours,rate)
+  
   if hours>40:
     x = rate * hours
     y = (hours-40.0) * (rate * 0.5)
     pay = x+y
   else:    
     pay=hours * rate
-    #print("returning",pay)
+    
   return pay
     
 sh=input("enter hours:")
