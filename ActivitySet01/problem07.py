@@ -1,3 +1,2 @@
 # Strings
-
-text = "X-DSPAM-Confidence:    0.8475"
+s{::-1}

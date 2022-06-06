@@ -15,4 +15,3 @@ elif s<0.6:
 else:
     x="out of range"
 print (x)
-
